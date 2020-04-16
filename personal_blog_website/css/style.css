@@ -1,0 +1,35 @@
+body {
+  font-family: "Open Sans";
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: grid;
+  width: 80vw; 
+}
+
+header {
+  background-color: #3ba288;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat";
+  color: #1b1b1b;
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav_container a {
+  color: #1b1b1b;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
